@@ -20,6 +20,12 @@ ul {
     list-style: none;
 }
 
+#wrap{
+    min-width: 1400px;
+    overflow: hidden;
+}
+
+
 /* HEADER START */
 
 #header {
@@ -398,7 +404,7 @@ ul {
 
 #banner {
     box-sizing: border-box;
-    background: url(../img/banner1.png) no-repeat;
+    background: url(../img/banner1.png) no-repeat center 0;
     margin: 0 auto;
     height: 300px;
 }
@@ -571,7 +577,7 @@ ul {
     width: 100%;
     height: 900px;
     margin: 0 auto;
-    background: url(../img/soap.png) no-repeat;
+    background: url(../img/soap.png) no-repeat center 0;
 }
 
 /* CONTENT5 END */
@@ -669,7 +675,7 @@ ul {
     box-sizing: border-box;
     height: 400px;
     background-image: url(../img/banner6.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat center 0;
     background-attachment: fixed;
 }
 
@@ -684,7 +690,7 @@ ul {
 
 #content7{
     height: 1000px;
-    background: url(../img/skinbg.png) no-repeat;
+    background: url(../img/skinbg.png) no-repeat center 0;
     margin: 150px auto 0;
     box-sizing: border-box;
     position: relative; 
@@ -908,9 +914,9 @@ ul {
 #footer {
     box-sizing: border-box;
     height: 1000px;
-    background-image: url(../img/footer.png);
+    background-image: url(../img/footer.png) ;
     background-repeat: no-repeat;
-    background-position: 0 100%;
+    background-position: center 100%;
     overflow: hidden;
 }
 
